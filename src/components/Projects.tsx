@@ -1,5 +1,36 @@
 import { Fancybox } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
+import staLuciaImg1 from "/src/assets/stalucia/stalucia1.png"
+import staLuciaImg2 from "/src/assets/stalucia/stalucia2.png"
+import staLuciaImg3 from "/src/assets/stalucia/stalucia3.png"
+import staLuciaImg4 from "/src/assets/stalucia/stalucia4.png"
+import staLuciaImg5 from "/src/assets/stalucia/stalucia5.png"
+import mendoImg1 from "/src/assets/mendo/mendo1.png"
+import mendoImg2 from "/src/assets/mendo/mendo2.png"
+import mendoImg3 from "/src/assets/mendo/mendo3.png"
+import mendoImg4 from "/src/assets/mendo/mendo4.png"
+import mendoImg5 from "/src/assets/mendo/mendo5.png"
+import emueImg1 from "/src/assets/emue/emue1.png"
+import emueImg2 from "/src/assets/emue/emue2.png"
+import emueImg3 from "/src/assets/emue/emue3.png"
+import emueImg4 from "/src/assets/emue/emue4.png"
+import emueImg5 from "/src/assets/emue/emue5.png"
+import emueImg6 from "/src/assets/emue/emue6.png"
+import tdImg1 from "/src/assets/tacdesk/td1.jpg"
+import tdImg2 from "/src/assets/tacdesk/td2.jpg"
+import tdImg3 from "/src/assets/tacdesk/td3.jpg"
+import tdImg4 from "/src/assets/tacdesk/td4.jpg"
+import tdImg5 from "/src/assets/tacdesk/td5.jpg"
+import tdImg6 from "/src/assets/tacdesk/td6.jpg"
+import dfaImg1 from "/src/assets/dfa/dfa1.png"
+import dfaImg2 from "/src/assets/dfa/dfa2.png"
+import ipayImg1 from "/src/assets/ipay/ipay1.jpg"
+import ipayImg2 from "/src/assets/ipay/ipay2.jpg"
+import ipayImg3 from "/src/assets/ipay/ipay3.jpg"
+import ipayImg4 from "/src/assets/ipay/ipay4.jpg"
+import ipayImg5 from "/src/assets/ipay/ipay5.jpg"
+
+
 
 const Projects = () => {
     Fancybox.bind("[data-fancybox]", {
@@ -10,20 +41,20 @@ const Projects = () => {
       <h1 className="text-5xl text-neutralWhite font-semibold mb-4">Projects<span className="text-neutralCyan">.</span></h1>
         <div className="flex  justify-between flex-wrap mt-10">
             <div className="flex flex-col border-2 border-neutralCyan w-[100%] md:w-[48%] lg:w-[33%] rounded-md hover:-translate-y-4 mt-10">
-                <a href="/src/assets/stalucia/stalucia1.png" data-fancybox="gallery">
-                    <img className="size-[100%] max-h-[200px] rounded-t-md min-h-[200px]" src="/src/assets/stalucia/stalucia1.png" />
+                <a href={staLuciaImg1} data-fancybox="gallery">
+                    <img className="size-[100%] max-h-[200px] rounded-t-md min-h-[200px]" src={staLuciaImg1} />
                 </a>
-                <a href="/src/assets/stalucia/stalucia2.png" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/stalucia/stalucia2.png" />
+                <a href={staLuciaImg2} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={staLuciaImg2} />
                 </a>
-                <a href="/src/assets/stalucia/stalucia3.png" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/stalucia/stalucia3.png" />
+                <a href={staLuciaImg3} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={staLuciaImg3} />
                 </a>
-                <a href="/src/assets/stalucia/stalucia4.png" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/stalucia/stalucia4.png" />
+                <a href={staLuciaImg4} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={staLuciaImg4} />
                 </a>
-                <a href="/src/assets/stalucia/stalucia5.png" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/stalucia/stalucia5.png" />
+                <a href={staLuciaImg5} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={staLuciaImg5} />
                 </a>
 
                 <div className="p-3">
@@ -38,20 +69,20 @@ const Projects = () => {
             </div>
 
             <div className="flex flex-col border-2 border-neutralCyan w-[100%] md:w-[48%] lg:w-[33%] hover:-translate-y-4 mt-10 rounded-md">
-                <a href="/src/assets/mendo/mendo1.png" data-fancybox="gallery">
-                    <img className="size-[100%] max-h-[200px] rounded-t-md" src="/src/assets/mendo/mendo1.png" />
+                <a href={mendoImg1} data-fancybox="gallery">
+                    <img className="size-[100%] max-h-[200px] rounded-t-md" src={mendoImg1} />
                 </a>
-                <a href="/src/assets/mendo/mendo2.png" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/mendo/mendo2.png" />
+                <a href={mendoImg2} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={mendoImg2} />
                 </a>
-                <a href="/src/assets/mendo/mendo3.png" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/mendo/mendo3.png" />
+                <a href={mendoImg3} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={mendoImg3} />
                 </a>
-                <a href="/src/assets/mendo/mendo4.png" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/mendo/mendo4.png" />
+                <a href={mendoImg4} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={mendoImg4} />
                 </a>
-                <a href="/src/assets/mendo/mendo5.png" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/mendo/mendo5.png" />
+                <a href={mendoImg5} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={mendoImg5} />
                 </a>
 
                 <div className="p-3">
@@ -66,23 +97,23 @@ const Projects = () => {
             </div>
 
             <div className="flex flex-col border-2 border-neutralCyan w-[100%] md:w-[48%] lg:w-[33%] hover:-translate-y-4 mt-10 overflow-hidden rounded-md">
-                <a href="/src/assets/emue/emue1.png" data-fancybox="gallery">
-                    <img className="w-[100%] h-auto max-h-[200px] object-cover rounded-t-md" src="/src/assets/emue/emue1.png" />
+                <a href={emueImg1} data-fancybox="gallery">
+                    <img className="w-[100%] h-auto max-h-[200px] object-cover rounded-t-md" src={emueImg1} />
                 </a>
-                <a href="/src/assets/emue/emue2.png" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/emue/emue2.png" />
+                <a href={emueImg2} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={emueImg2} />
                 </a>
-                <a href="/src/assets/emue/emue3.png" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/emue/emue3.png" />
+                <a href={emueImg3} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={emueImg3} />
                 </a>
-                <a href="/src/assets/emue/emue4.png" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/emue/emue4.png" />
+                <a href={emueImg4} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={emueImg4} />
                 </a>
-                <a href="/src/assets/emue/emue6.png" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/emue/emue6.png" />
+                <a href={emueImg6} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={emueImg6} />
                 </a>
-                <a href="/src/assets/emue/emue5.png" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/emue/emue5.png" />
+                <a href={emueImg5} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={emueImg5} />
                 </a>
 
                 <div className="p-3">
@@ -97,23 +128,23 @@ const Projects = () => {
             </div>
 
             <div className="flex flex-col border-2 border-neutralCyan w-[100%] md:w-[48%] lg:w-[33%] overflow-hidden hover:-translate-y-4 mt-10 rounded-md">
-                <a href="/src/assets/tacdesk/td1.jpg" data-fancybox="gallery">
-                    <img className="w-[100%] h-auto max-h-[200px] object-cover rounded-t-md" src="/src/assets/tacdesk/td1.jpg" />
+                <a href={tdImg1} data-fancybox="gallery">
+                    <img className="w-[100%] h-auto max-h-[200px] object-cover rounded-t-md" src={tdImg1} />
                 </a>
-                <a href="/src/assets/tacdesk/td2.jpg" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/tacdesk/td2.jpg" />
+                <a href={tdImg2} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={tdImg2} />
                 </a>
-                <a href="/src/assets/tacdesk/td3.jpg" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/tacdesk/td3.jpg" />
+                <a href={tdImg3} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={tdImg3} />
                 </a>
-                <a href="/src/assets/tacdesk/td4.jpg" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/tacdesk/td4.jpg" />
+                <a href={tdImg4} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={tdImg4} />
                 </a>
-                <a href="/src/assets/tacdesk/td5.jpg" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/tacdesk/td5.jpg" />
+                <a href={tdImg5} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={tdImg5} />
                 </a>
-                <a href="/src/assets/tacdesk/td6.jpg" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/tacdesk/td6.jpg" />
+                <a href={tdImg6} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={tdImg6} />
                 </a>
 
                 <div className="p-3">
@@ -128,11 +159,11 @@ const Projects = () => {
             </div>
 
             <div className="flex flex-col border-2 border-neutralCyan w-[100%] md:w-[48%] lg:w-[33%] overflow-hidden hover:-translate-y-4 mt-10 rounded-md">
-                <a href="/src/assets/dfa/dfa1.png" data-fancybox="gallery">
-                    <img className="w-[100%] h-auto max-h-[200px] object-cover rounded-t-md" src="/src/assets/dfa/dfa1.png" />
+                <a href={dfaImg1} data-fancybox="gallery">
+                    <img className="w-[100%] h-auto max-h-[200px] object-cover rounded-t-md" src={dfaImg1} />
                 </a>
-                <a href="/src/assets/dfa/dfa2.png" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/dfa/dfa2.png" />
+                <a href={dfaImg2} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={dfaImg2} />
                 </a>
 
                 <div className="p-3">
@@ -147,20 +178,20 @@ const Projects = () => {
             </div>
 
             <div className="flex flex-col border-2 border-neutralCyan w-[100%] md:w-[48%] lg:w-[33%] hover:-translate-y-4 mt-10 rounded-md">
-                <a href="/src/assets/ipay/ipay1.jpg" data-fancybox="gallery">
-                    <img className="size-[100%] max-h-[200px] min-h-[200px] rounded-t-md" src="/src/assets/ipay/ipay1.jpg" />
+                <a href={ipayImg1} data-fancybox="gallery">
+                    <img className="size-[100%] max-h-[200px] min-h-[200px] rounded-t-md" src={ipayImg1} />
                 </a>
-                <a href="/src/assets/ipay/ipay2.jpg" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/ipay/ipay2.jpg" />
+                <a href={ipayImg2} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={ipayImg2} />
                 </a>
-                <a href="/src/assets/ipay/ipay3.jpg" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/ipay/ipay3.jpg" />
+                <a href={ipayImg3} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={ipayImg3} />
                 </a>
-                <a href="/src/assets/ipay/ipay4.jpg" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/ipay/ipay4.jpg" />
+                <a href={ipayImg4} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={ipayImg4} />
                 </a>
-                <a href="/src/assets/ipay/ipay5.jpg" data-fancybox="gallery">
-                    <img className="size-20 hidden" src="/src/assets/ipay/ipay5.jpg" />
+                <a href={ipayImg5} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={ipayImg5} />
                 </a>
 
                 <div className="p-3">

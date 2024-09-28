@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { IoIosClose, IoMdMenu } from "react-icons/io";
+import logo from '/src/assets/logo.png';
 
 
 const Header = () => {
@@ -30,7 +31,7 @@ const Header = () => {
     <div className='w-full max-w-6xl mx-auto fixed md:bg-transparent top-0 left-0 right-0 z-50'>
         <div className={`flex justify-between py-2 px-6 md:px-10 lg:px-10 xl:px-0 ${isSticky ? "bg-neutralGray sticky top-0 right-0 left-0 duration-300": ""}`}>
             <div>
-                <img className="size-16 md:size-20" src="/src/assets/logo.png"/>
+                <img className="size-16 md:size-20" src={logo}/>
             </div>
 
             <nav className='md:flex items-center'>

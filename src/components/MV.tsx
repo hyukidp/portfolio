@@ -4,6 +4,7 @@ import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import { GrDocumentPdf } from "react-icons/gr";
 import { AiOutlineLinkedin } from "react-icons/ai";
+import hiroImg from "/src/assets/image1.png" 
 
 const MV = () => {
     const handleDownload = () => {
@@ -44,7 +45,7 @@ const MV = () => {
         </div>
 
         <div className="w-full md:w-2/4 z-10 flex items-center justify-center">
-          <img className="size-[420px] w-auto h-auto" src='/src/assets/image1.png'/>
+          <img className="size-[420px] w-auto h-auto" src={hiroImg}/>
         </div>
 
         <Particles
