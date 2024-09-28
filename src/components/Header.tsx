@@ -52,13 +52,15 @@ const Header = () => {
               </button>
             </div>
 
-            <div className={`space-y-4 w-full px-4 mt-20 py-7 bg-brandPrimary ${ isMenuOpen ? "block fixed top-0 left-0": "hidden"}`}>
-              <nav className="flex flex-col">
-                <li className="text-lg text-neutralWhite font-semibold hover:text-cyan-500 hover:-translate-y-1 duration-200">Top</li>
+            <div className={`space-y-4 w-full px-4 mt-20 py-7 bg-neutralCyan ${ isMenuOpen ? "block fixed top-0 left-0": "hidden"}`}>
+              <nav className="flex flex-col text-center">
+                <ul>
+                  <li className="text-lg text-neutralWhite font-semibold hover:text-cyan-500 hover:-translate-y-1 duration-200">Top</li>
                     <li className="text-lg text-neutralWhite font-semibold hover:text-cyan-500 hover:-translate-y-1 duration-200">About</li>
                     <li className="text-lg text-neutralWhite font-semibold hover:text-cyan-500 hover:-translate-y-1 duration-200">Projects</li>
                     <li className="text-lg text-neutralWhite font-semibold hover:text-cyan-500 hover:-translate-y-1 duration-200">Contact</li>
-                </nav>
+                </ul>
+              </nav>
             </div>
         </div>
     </div>
