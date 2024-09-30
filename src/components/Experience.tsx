@@ -2,9 +2,9 @@ const Experience = () => {
   return (
     <div className="w-full px-4 md:px-10">
         <h2 className="text-3xl text-neutralWhite font-semibold mt-10">Professional Experience</h2>
-        <div className="flex flex-row-reverse flex-wrap w-full justify-between">
+        <div className="flex flex-row-reverse flex-wrap w-full justify-center lg:justify-between">
 
-          <div className="border-2 border-neutralCyan p-3 w-[100%] md:w-[48%] mt-10 rounded-lg">
+          <div className="border-2 border-neutralCyan p-3 w-[100%] lg:w-[48%] mt-10 rounded-lg">
             <h3 className="text-lg text-neutralCyan font-semibold">2023</h3>
             <h1 className="text-3xl font-semibold text-neutralWhite">Technical Engineer</h1>
             <h2 className="text-lg text-neutralWhite">Dahua Technology</h2>
@@ -18,7 +18,7 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="border-2 border-neutralCyan p-3 w-[100%] md:w-[48%] mt-10 rounded-lg">
+          <div className="border-2 border-neutralCyan p-3 w-[100%] lg:w-[48%] mt-10 rounded-lg">
             <h3 className="text-lg text-neutralCyan font-semibold">2023-2024</h3>
             <h1 className="text-3xl font-semibold text-neutralWhite">Junior Web Developer</h1>
             <h2 className="text-lg text-neutralWhite">Right Communication Group</h2>

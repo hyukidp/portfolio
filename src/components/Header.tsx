@@ -1,6 +1,10 @@
 import { useState, useEffect } from 'react';
 import { IoIosClose, IoMdMenu } from "react-icons/io";
 import logo from '/src/assets/logo.png';
+import { IoHomeOutline } from "react-icons/io5";
+import { FaRegUser } from "react-icons/fa";
+import { GrProjects } from "react-icons/gr";
+import { MdOutlineContactPhone } from "react-icons/md";
 
 
 const Header = () => {
@@ -47,18 +51,18 @@ const Header = () => {
               <button className='focus:outline-none focus:text-gray-500'
                 onClick={toggleMenu}>
                 {
-                  isMenuOpen ? (<IoIosClose className='h-6 w-6 text-neutralCyan'/>) : (<IoMdMenu className='h-6 w-6 text-neutralCyan'/>)
+                  isMenuOpen ? (<IoIosClose className='h-10 w-10 text-neutralCyan'/>) : (<IoMdMenu className='h-6 w-6 text-neutralCyan'/>)
                 }
               </button>
             </div>
 
-            <div className={`space-y-4 w-full px-4 mt-20 py-7 bg-neutralCyan ${ isMenuOpen ? "block fixed top-0 left-0": "hidden"}`}>
+            <div className={`space-y-4 w-full mt-20 py-8 bg-neutralCyan ${ isMenuOpen ? "block fixed top-0 left-0": "hidden"}`}>
               <nav className="flex flex-col text-center">
                 <ul>
-                  <li className="text-lg text-neutralWhite font-semibold hover:text-cyan-500 hover:-translate-y-1 duration-200">Top</li>
-                    <li className="text-lg text-neutralWhite font-semibold hover:text-cyan-500 hover:-translate-y-1 duration-200">About</li>
-                    <li className="text-lg text-neutralWhite font-semibold hover:text-cyan-500 hover:-translate-y-1 duration-200">Projects</li>
-                    <li className="text-lg text-neutralWhite font-semibold hover:text-cyan-500 hover:-translate-y-1 duration-200">Contact</li>
+                  <li className="text-3xl text-neutralWhite font-semibold py-3"><a href='#'><IoHomeOutline className='inline-block mr-3'/>Top</a></li>
+                    <li className="text-3xl text-neutralWhite font-semibold py-3"><a href='#about'><FaRegUser className='inline-block mr-3'/>About</a></li>
+                    <li className="text-3xl text-neutralWhite font-semibold py-3"><a href='#projects'><GrProjects className='inline-block mr-3'/>Projects</a></li>
+                    <li className="text-3xl text-neutralWhite font-semibold py-3"><a href='#contact'><MdOutlineContactPhone className='inline-block mr-3'/>Contact</a></li>
                 </ul>
               </nav>
             </div>
