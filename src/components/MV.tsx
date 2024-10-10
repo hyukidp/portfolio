@@ -9,7 +9,7 @@ import hiroImg from "/src/assets/image1.png"
 const MV = () => {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/public/Suzuki_2024.pdf';
+        link.href = '/public/SUZUKI_RESUME_2024.pdf';
         link.download = 'SUZUKI_2024.pdf';
         link.click();
     };
