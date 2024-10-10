@@ -8,13 +8,6 @@ import hiroImg from "/src/assets/image1.png";
 import resume from "/public/SUZUKI_RESUME_2024.pdf";
 
 const MV = () => {
-    const handleDownload = () => {
-        const link = document.createElement('a');
-        link.href = resume;
-        link.download = 'SUZUKI_2024.pdf';
-        link.click();
-    };
-
     const particlesInit = useCallback(async (engine: Engine) => {
         console.log(engine);
         await loadSlim(engine);
@@ -40,7 +33,7 @@ const MV = () => {
                 </div>
             </div>
             <div className="flex gap-2 w-full">
-                <button onClick={handleDownload} className="px-4 py-1 text-base md:text-lg bg-neutralCyan mt-5 rounded-xl text-neutralGray font-semibold hover:-translate-y-2 duration-200"><GrDocumentPdf className="inline mr-2 -mt-2"/>Download CV</button>
+                <button className="px-4 py-1 text-base md:text-lg bg-neutralCyan mt-5 rounded-xl text-neutralGray font-semibold hover:-translate-y-2 duration-200"><a href={resume} target="_blank"><GrDocumentPdf className="inline mr-2 -mt-2"/>Download CV</a></button>
                 <a href="https://www.linkedin.com/in/hyukidp/" className="px-4 py-1 text-base md:text-lg bg-neutralCyan mt-5 rounded-xl text-neutralGray font-semibold hover:-translate-y-2 duration-200"><AiOutlineLinkedin className="inline mr-2 -mt-2"/>LinkedIn Profile</a>
             </div>
         </div>
