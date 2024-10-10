@@ -24,13 +24,13 @@ import tdImg5 from "/src/assets/tacdesk/td5.jpg"
 import tdImg6 from "/src/assets/tacdesk/td6.jpg"
 import dfaImg1 from "/src/assets/dfa/dfa1.jpg"
 import dfaImg2 from "/src/assets/dfa/dfa2.jpg"
-import ipayImg1 from "/src/assets/ipay/ipay1.jpg"
-import ipayImg2 from "/src/assets/ipay/ipay2.jpg"
-import ipayImg3 from "/src/assets/ipay/ipay3.jpg"
-import ipayImg4 from "/src/assets/ipay/ipay4.jpg"
-import ipayImg5 from "/src/assets/ipay/ipay5.jpg"
-
-
+import jcasImg1 from "/src/assets/jcas/jcas1.png"
+import jcasImg2 from "/src/assets/jcas/jcas2.png"
+import jcasImg3 from "/src/assets/jcas/jcas3.png"
+import jcasImg4 from "/src/assets/jcas/jcas4.png"
+import jcasImg5 from "/src/assets/jcas/jcas5.png"
+import jcasImg6 from "/src/assets/jcas/jcas6.png"
+import jcasImg7 from "/src/assets/jcas/jcas7.png"
 
 const Projects = () => {
     Fancybox.bind("[data-fancybox]", {
@@ -40,6 +40,41 @@ const Projects = () => {
     <div className="w-full h-full max-w-6xl mx-auto mt-20 z-40" id="projects">
       <h1 className="text-5xl text-neutralWhite font-semibold mb-4">Projects<span className="text-neutralCyan">.</span></h1>
         <div className="flex  justify-between flex-wrap mt-10">
+
+            <div className="flex flex-col border-2 border-neutralCyan w-[100%] md:w-[48%] lg:w-[33%] hover:-translate-y-4 mt-10 rounded-md">
+                <a href={jcasImg1} data-fancybox="gallery">
+                    <img className="size-[100%] max-h-[200px] min-h-[200px] rounded-t-md" src={jcasImg1} />
+                </a>
+                <a href={jcasImg2} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={jcasImg2} />
+                </a>
+                <a href={jcasImg3} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={jcasImg3} />
+                </a>
+                <a href={jcasImg4} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={jcasImg4} />
+                </a>
+                <a href={jcasImg5} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={jcasImg5} />
+                </a>
+                <a href={jcasImg6} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={jcasImg6} />
+                </a>
+                <a href={jcasImg7} data-fancybox="gallery">
+                    <img className="size-20 hidden" src={jcasImg7} />
+                </a>
+
+                <div className="p-3">
+                    <div className="flex justify-between">
+                        <h1 className="text-neutralCyan text-lg font-semibold">JCAS Sports Alley</h1>
+                        <h2 className="text-neutralWhite text-lg font-semibold">2024</h2>
+                    </div>
+                    <p className="text-neutralWhite mt-2">Designed and developed a website for JCAS Sports Alley where the users can easily book appointment and avail services with just few clicks.  </p>
+
+                    <h2 className="text-neutralWhite mt-4">Technologies used: React.js, TypeScript, Tailwind CSS</h2>
+                </div>
+            </div>
+
             <div className="flex flex-col border-2 border-neutralCyan w-[100%] md:w-[48%] lg:w-[33%] rounded-md hover:-translate-y-4 mt-10">
                 <a href={staLuciaImg1} data-fancybox="gallery">
                     <img className="size-[100%] max-h-[200px] rounded-t-md min-h-[200px]" src={staLuciaImg1} />
@@ -64,7 +99,7 @@ const Projects = () => {
                     </div>
                     <p className="text-neutralWhite mt-2">This is a comprehensive web application designed to managem bus operations. Built with React.js and TypeScript, this project serves as a training ground for enhancing my skills in modern web development and API integration.</p>
 
-                    <h2 className="text-neutralWhite mt-4">Technologies used: React.js, TypeScript, Tailwind, Postman</h2>
+                    <h2 className="text-neutralWhite mt-4">Technologies used: React.js, TypeScript, Tailwind CSS, Postman</h2>
                 </div>
             </div>
 
@@ -90,7 +125,7 @@ const Projects = () => {
                         <h1 className="text-neutralCyan text-lg font-semibold">Ichibankan</h1>
                         <h2 className="text-neutralWhite text-lg font-semibold">2024</h2>
                     </div>
-                    <p className="text-neutralWhite mt-2">Collaborated with a japanese designer and developed a website for a food business in Japan. I was also given a chance to design some of images included in the menu.</p>
+                    <p className="text-neutralWhite mt-2">Collaborated with a Japanese designer and developed a website for a food business in Japan. I was also given a chance to design some of images included in the menu.</p>
 
                     <h2 className="text-neutralWhite mt-4">Technologies used: Figma, WordPress, HTML, CSS, JavaScript</h2>
                 </div>
@@ -174,34 +209,6 @@ const Projects = () => {
                     <p className="text-neutralWhite mt-2">Redesigned and developed the existing Department of Foreign Affairs (DFA) website that can be seen on the internet.</p>
 
                     <h2 className="text-neutralWhite mt-4">Technologies used: Adobe Photoshop, HTML, CSS</h2>
-                </div>
-            </div>
-
-            <div className="flex flex-col border-2 border-neutralCyan w-[100%] md:w-[48%] lg:w-[33%] hover:-translate-y-4 mt-10 rounded-md">
-                <a href={ipayImg1} data-fancybox="gallery">
-                    <img className="size-[100%] max-h-[200px] min-h-[200px] rounded-t-md" src={ipayImg1} />
-                </a>
-                <a href={ipayImg2} data-fancybox="gallery">
-                    <img className="size-20 hidden" src={ipayImg2} />
-                </a>
-                <a href={ipayImg3} data-fancybox="gallery">
-                    <img className="size-20 hidden" src={ipayImg3} />
-                </a>
-                <a href={ipayImg4} data-fancybox="gallery">
-                    <img className="size-20 hidden" src={ipayImg4} />
-                </a>
-                <a href={ipayImg5} data-fancybox="gallery">
-                    <img className="size-20 hidden" src={ipayImg5} />
-                </a>
-
-                <div className="p-3">
-                    <div className="flex justify-between">
-                        <h1 className="text-neutralCyan text-lg font-semibold">iPay</h1>
-                        <h2 className="text-neutralWhite text-lg font-semibold">2020</h2>
-                    </div>
-                    <p className="text-neutralWhite mt-2">My first ever project doing designing and web developing back when I was in college. This is a prototype of a payment system.</p>
-
-                    <h2 className="text-neutralWhite mt-4">Technologies used: Adobe Photoshop, HTML, CSS, PHP</h2>
                 </div>
             </div>
             
