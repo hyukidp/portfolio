@@ -4,12 +4,13 @@ import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import { GrDocumentPdf } from "react-icons/gr";
 import { AiOutlineLinkedin } from "react-icons/ai";
-import hiroImg from "/src/assets/image1.png" 
+import hiroImg from "/src/assets/image1.png";
+import resume from "/public/SUZUKI_RESUME_2024.pdf";
 
 const MV = () => {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/public/SUZUKI_RESUME_2024.pdf';
+        link.href = resume;
         link.download = 'SUZUKI_2024.pdf';
         link.click();
     };
