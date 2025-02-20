@@ -5,7 +5,7 @@ import { loadSlim } from "tsparticles-slim";
 import { GrDocumentPdf } from "react-icons/gr";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import hiroImg from "/src/assets/image1.png";
-import resume from "/public/SUZUKI_RESUME_2024.pdf";
+import resume from "/public/SUZUKI_RESUME_2025.pdf";
 
 const MV = () => {
     const particlesInit = useCallback(async (engine: Engine) => {
